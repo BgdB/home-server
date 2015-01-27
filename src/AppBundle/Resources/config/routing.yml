@@ -1,3 +1,7 @@
 home_server_homepage:
     pattern:  /
     defaults: { _controller: AppBundle:Homepage:index }
+
+home_server_login:
+    pattern:  /login
+    defaults: { _controller: AppBundle:Login:login }
